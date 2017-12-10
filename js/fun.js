@@ -17,20 +17,8 @@ function StartSearch(obj) {
         case "CSDN":
             url = "http://so.csdn.net/so/search/s.do?t=blog&q=";
             break;
-        case "京东":
-            url = "https://search.jd.com/Search?enc=utf-8&keyword=";
-            break;
-        case "淘宝":
-            url = "https://s.taobao.com/search?q=";
-            break;
-        case "亚马逊":
-            url = "https://www.amazon.cn/s/ref=nb_sb_noss_2?__mk_zh_CN=亚马逊网站&url=search-alias%3Daps&field-keywords=";
-            break;
-        case "当当":
-            url = "http://search.dangdang.com/?key=";
-            break;
-        case "知乎":
-            url = "https://www.zhihu.com/search?type=content&q=";
+        case "菜鸟学院":
+            url = "http://www.runoob.com/?s=";
             break;
 
     }
