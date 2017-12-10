@@ -18,46 +18,71 @@
         <h1>Quick Search</h1>
         <p> 搜索快人一步！@by 傲慢的上校</p>
     </div>
-    <div class="container">
+    <!--<div class="container">-->
         <div class="row">
             <div class="col-3">
                 <div class="col-12">
                     <input id="keyword" type="text" class="form-control txtbox-size" onkeydown="defaultSearch(event)" placeholder="请输入你想搜索的内容...">
                 </div>
             </div>
-            <div class="col-9 col-offset-1 form-inline ">
-                <div class="row">
+            <div class="col-9 ">
+                <div class="row  form-inline">
                     <div class="col-2">
                         <p> 搜索</p>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-2 ">
                         <button id="Google" onclick="StartSearch(this)" class="btn btn-success btn-sm btn-size ">Google</button>
                     </div>
-                    <div class="col-3  ">
+                    <div class="col-2  ">
                         <button id="Bing" onclick="StartSearch(this)"   class="btn btn-success btn-sm btn-size ">Bing</button>
                     </div>
-                    <div class="col-3  ">
+                    <div class="col-2  ">
                         <button id="Baidu" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">百度</button>
                     </div>
 
                 </div>
-                <div class="row">
+                <div class="row  form-inline">
                     <div class="col-2">
-                        <p> 开发</p>
+                        <p> 社区</p>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-2 ">
                         <button id="CSDN" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">CSDN</button>
                     </div>
-                    <div class="col-3  ">
+                    <div class="col-2  ">
                         <button id="Stack Overlow" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">Stack Overlow</button>
                     </div>
-                    <div class="col-3  ">
+                    <div class="col-2  ">
                         <button id="菜鸟学院" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">菜鸟学院</button>
+                    </div>
+                    <div class="col-2  ">
+                        <button id="知乎" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">知乎</button>
+                    </div>
+                </div>
+                <div class="row  form-inline">
+                    <div class="col-2">
+                        <p> 购物</p>
+                    </div>
+                    <div class="col-2 ">
+                        <button id="京东" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">京东</button>
+                    </div>
+                    <div class="col-2  ">
+                        <button id="淘宝" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">淘宝</button>
+                    </div>
+                    <div class="col-2  ">
+                        <button id="亚马逊" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">亚马逊</button>
+                    </div>
+                    <div class="col-2  ">
+                        <button id="当当" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">当当</button>
                     </div>
                 </div>
             </div>
+            <div id="footer" class="container">
+                <p class=" footer">
+                    用法：输入搜索关键字，选择要搜索的网站。直接按回车默认搜索百度！
+                </p>
+            </div>
 
-    </div>
+    <!--</div>-->
 </body>
 </html>
 
