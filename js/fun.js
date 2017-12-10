@@ -25,3 +25,12 @@ function StartSearch(obj) {
     var keyword = document.getElementById("keyword").value;
     window.open(url + keyword);
 }
+
+function defaultSearch(e) {
+    var keynum = window.event ? e.keyCode : e.which;
+    if(keynum == 13){
+        var url = "https://www.baidu.com/s?ie=utf-8&wd="
+        var keyword = document.getElementById("keyword").value;
+        window.open(url + keyword);
+    }
+}
