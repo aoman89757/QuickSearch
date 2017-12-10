@@ -17,6 +17,9 @@ function StartSearch(obj) {
         case "CSDN":
             url = "http://so.csdn.net/so/search/s.do?t=blog&q=";
             break;
+        case "菜鸟学院":
+            url = "http://www.runoob.com/?s=";
+            break;
         case "京东":
             url = "https://search.jd.com/Search?enc=utf-8&keyword=";
             break;
