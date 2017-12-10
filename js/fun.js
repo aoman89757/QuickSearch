@@ -32,6 +32,18 @@ function StartSearch(obj) {
         case "知乎":
             url = "https://www.zhihu.com/search?type=content&q=";
             break;
+        case "腾讯视频":
+            url = "https://v.qq.com/x/search/?q=";
+            break;
+        case "爱奇艺":
+            url = "http://so.iqiyi.com/so/q_";
+            break;
+        case "Youtube":
+            url = "https://www.youtube.com/results?search_query=";
+            break;
+        case "bilibili":
+            url = "https://search.bilibili.com/all?keyword=";
+            break;
 
     }
     var keyword = document.getElementById("keyword").value;
