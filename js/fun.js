@@ -47,6 +47,21 @@ function StartSearch(obj) {
         case "bilibili":
             url = "https://search.bilibili.com/all?keyword=";
             break;
+        case "豆瓣":
+            url = "https://www.douban.com/search?q=";
+            break;
+        case "Github":
+            url = "https://github.com/search?utf8=✓&q=";
+            break;
+        case "搜狗":
+            url = "https://www.sogou.com/web?ie=utf8&sourceid=qc&bq=1&query=";
+            break;
+        case "豆瓣电影":
+            url = "https://movie.douban.com/subject_search?search_text=";
+            break;
+        case "高德地图":
+            url = "http://ditu.amap.com/search?query=";
+            break;
 
     }
     var keyword = document.getElementById("keyword").value;
