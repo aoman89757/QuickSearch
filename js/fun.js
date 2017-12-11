@@ -15,7 +15,7 @@ var SiteDic =
         "爱奇艺":"http://so.iqiyi.com/so/q_",
         "Youtube":"https://www.youtube.com/results?search_query=",
         "bilibili":"https://search.bilibili.com/all?keyword=",
-        "豆瓣":"https://www.douban.com/search?q=",
+        "豆瓣图书":"https://book.douban.com/subject_search?search_text=",
         "Github":"https://github.com/search?utf8=✓&q=",
         "搜狗":"https://www.sogou.com/web?ie=utf8&sourceid=qc&bq=1&query=",
         "豆瓣电影":"https://movie.douban.com/subject_search?search_text=",
