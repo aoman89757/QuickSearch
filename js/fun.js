@@ -19,7 +19,9 @@ var SiteDic =
         "Github":"https://github.com/search?utf8=✓&q=",
         "搜狗":"https://www.sogou.com/web?ie=utf8&sourceid=qc&bq=1&query=",
         "豆瓣电影":"https://movie.douban.com/subject_search?search_text=",
-        "高德地图":"http://ditu.amap.com/search?query="
+        "高德地图":"http://ditu.amap.com/search?query=",
+        "蚂蜂窝":"http://www.mafengwo.cn/search/s.php?q="
+
     }
 
 function StartSearch(obj) {
