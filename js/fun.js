@@ -1,69 +1,29 @@
-function StartSearch(obj) {
-    //var keyword = $("keyword").innerText;
-    var url = "";
-    switch (obj.id){
-        case "Google":
-            url = "https://www.google.com.hk/search?q=";
-            break;
-        case "Bing":
-            url = "https://www.bing.com/search?q="
-            break;
-        case "Baidu":
-            url = "https://www.baidu.com/s?ie=utf-8&wd=";
-            break;
-        case "Stack Overlow":
-            url = "https://stackoverflow.com/search?q=";
-            break;
-        case "CSDN":
-            url = "http://so.csdn.net/so/search/s.do?t=blog&q=";
-            break;
-        case "菜鸟学院":
-            url = "http://www.runoob.com/?s=";
-            break;
-        case "京东":
-            url = "https://search.jd.com/Search?enc=utf-8&keyword=";
-            break;
-        case "淘宝":
-            url = "https://s.taobao.com/search?q=";
-            break;
-        case "亚马逊":
-            url = "https://www.amazon.cn/s/ref=nb_sb_noss_2?__mk_zh_CN=亚马逊网站&url=search-alias%3Daps&field-keywords=";
-            break;
-        case "当当":
-            url = "http://search.dangdang.com/?key=";
-            break;
-        case "知乎":
-            url = "https://www.zhihu.com/search?type=content&q=";
-            break;
-        case "腾讯视频":
-            url = "https://v.qq.com/x/search/?q=";
-            break;
-        case "爱奇艺":
-            url = "http://so.iqiyi.com/so/q_";
-            break;
-        case "Youtube":
-            url = "https://www.youtube.com/results?search_query=";
-            break;
-        case "bilibili":
-            url = "https://search.bilibili.com/all?keyword=";
-            break;
-        case "豆瓣":
-            url = "https://www.douban.com/search?q=";
-            break;
-        case "Github":
-            url = "https://github.com/search?utf8=✓&q=";
-            break;
-        case "搜狗":
-            url = "https://www.sogou.com/web?ie=utf8&sourceid=qc&bq=1&query=";
-            break;
-        case "豆瓣电影":
-            url = "https://movie.douban.com/subject_search?search_text=";
-            break;
-        case "高德地图":
-            url = "http://ditu.amap.com/search?query=";
-            break;
-
+var SiteDic =
+    {
+        "Google": "https://www.google.com.hk/search?q=",
+        "Bing": "https://www.bing.com/search?q=",
+        "Baidu": "https://www.baidu.com/s?ie=utf-8&wd=",
+        "StackOverflow": "https://stackoverflow.com/search?q=",
+        "CSDN": "http://so.csdn.net/so/search/s.do?t=blog&q=",
+        "菜鸟学院": "http://www.runoob.com/?s=",
+        "京东": "https://search.jd.com/Search?enc=utf-8&keyword=",
+        "淘宝": "https://s.taobao.com/search?q=",
+        "亚马逊":"https://www.amazon.cn/s/ref=nb_sb_noss_2?__mk_zh_CN=亚马逊网站&url=search-alias%3Daps&field-keywords=",
+        "当当":"http://search.dangdang.com/?key=",
+        "知乎":"https://www.zhihu.com/search?type=content&q=",
+        "腾讯视频":"https://v.qq.com/x/search/?q=",
+        "爱奇艺":"http://so.iqiyi.com/so/q_",
+        "Youtube":"https://www.youtube.com/results?search_query=",
+        "bilibili":"https://search.bilibili.com/all?keyword=",
+        "豆瓣":"https://www.douban.com/search?q=",
+        "Github":"https://github.com/search?utf8=✓&q=",
+        "搜狗":"https://www.sogou.com/web?ie=utf8&sourceid=qc&bq=1&query=",
+        "豆瓣电影":"https://movie.douban.com/subject_search?search_text=",
+        "高德地图":"http://ditu.amap.com/search?query="
     }
+
+function StartSearch(obj) {
+    var url = SiteDic[obj.id];
     var keyword = document.getElementById("keyword").value;
     window.open(url + keyword);
 }
@@ -71,7 +31,7 @@ function StartSearch(obj) {
 function defaultSearch(e) {
     var keynum = window.event ? e.keyCode : e.which;
     if(keynum == 13){
-        var url = "https://www.baidu.com/s?ie=utf-8&wd="
+        var url = SiteDic["百度"];
         var keyword = document.getElementById("keyword").value;
         window.open(url + keyword);
     }
