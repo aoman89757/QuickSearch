@@ -1,4 +1,4 @@
-var SiteDic =
+var SiteSearchDic =
     {
         "Google": "https://www.google.com.hk/search?q=",
         "Bing": "https://www.bing.com/search?q=",
@@ -24,10 +24,42 @@ var SiteDic =
         "多看阅读":"http://www.duokan.com/search/"
 
     }
+var SiteDic =
+    {
+        "Google": "https://www.google.com",
+        "Bing": "https://www.bing.com",
+        "Baidu": "https://www.baidu.com",
+        "StackOverflow": "https://stackoverflow.com",
+        "CSDN": "http://csdn.net",
+        "菜鸟学院": "http://www.runoob.com",
+        "京东": "https://jd.com/",
+        "淘宝": "https://s.taobao.com/search?q=",
+        "亚马逊":"https://www.amazon.cn",
+        "当当":"http://dangdang.com",
+        "知乎":"https://www.zhihu.com",
+        "腾讯视频":"https://v.qq.com",
+        "爱奇艺":"http://iqiyi.com",
+        "Youtube":"https://www.youtube.com",
+        "bilibili":"https://bilibili.com",
+        "豆瓣图书":"https://book.douban.com",
+        "Github":"https://github.com",
+        "搜狗":"https://www.sogou.com",
+        "豆瓣电影":"https://movie.douban.com",
+        "高德地图":"http://ditu.amap.com",
+        "蚂蜂窝":"http://www.mafengwo.cn",
+        "多看阅读":"http://www.duokan.com"
+
+    }
 
     function Search(sitename) {
-        var url = SiteDic[sitename];
-        var keyword = encodeURIComponent(document.getElementById("keyword").value);
+        var keyword = document.getElementById("keyword").value;
+        var url = "";
+        if(keyword != ""){
+             url = SiteSearchDic[sitename];
+             keyword = encodeURIComponent(keyword);
+        }else {
+             url = SiteDic[sitename];
+        }
         window.open(url + keyword);
 
     }
