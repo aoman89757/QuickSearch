@@ -34,7 +34,7 @@ function StartSearch(obj) {
 function defaultSearch(e) {
     var keynum = window.event ? e.keyCode : e.which;
     if(keynum == 13){
-        var url = SiteDic["百度"];
+        var url = SiteDic["Baidu"];
         var keyword = document.getElementById("keyword").value;
         window.open(url + keyword);
     }
