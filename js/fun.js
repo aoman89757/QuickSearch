@@ -25,17 +25,19 @@ var SiteDic =
 
     }
 
-function StartSearch(obj) {
-    var url = SiteDic[obj.id];
-    var keyword = document.getElementById("keyword").value;
-    window.open(url + keyword);
-}
-
-function defaultSearch(e) {
-    var keynum = window.event ? e.keyCode : e.which;
-    if(keynum == 13){
-        var url = SiteDic["Baidu"];
-        var keyword = document.getElementById("keyword").value;
+    function Search(sitename) {
+        var url = SiteDic[sitename];
+        var keyword = encodeURIComponent(document.getElementById("keyword").value);
         window.open(url + keyword);
+
     }
-}
+    function StartSearch(obj) {
+        Search(obj.id);
+    }
+
+    function defaultSearch(e) {
+        var keynum = window.event ? e.keyCode : e.which;
+        if(keynum == 13){
+            Search("Baidu");
+        }
+    }
