@@ -21,7 +21,11 @@ var SiteSearchDic =
         "豆瓣电影":"https://movie.douban.com/subject_search?search_text=",
         "高德地图":"http://ditu.amap.com/search?query=",
         "蚂蜂窝":"http://www.mafengwo.cn/search/s.php?q=",
-        "多看阅读":"http://www.duokan.com/search/"
+        "多看阅读":"http://www.duokan.com/search/",
+        "有道词典":"http://dict.youdao.com/w/eng/",
+        "有道词典":"http://dict.youdao.com/w/eng/",
+        "Quora":"https://www.quora.com/search?q=",
+
 
     }
 var SiteDic =
@@ -47,7 +51,10 @@ var SiteDic =
         "豆瓣电影":"https://movie.douban.com",
         "高德地图":"http://ditu.amap.com",
         "蚂蜂窝":"http://www.mafengwo.cn",
-        "多看阅读":"http://www.duokan.com"
+        "多看阅读":"http://www.duokan.com",
+        "有道词典":"http://dict.youdao.com",
+        "Quora":"https://www.quora.com",
+
 
     }
 

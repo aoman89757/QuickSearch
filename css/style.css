@@ -36,3 +36,22 @@
 .label{
     color:sandybrown;
 }
+
+.btn-search{
+    background-color: #b312b9;
+}
+.btn-community{
+    background-color: #c74c1d;
+}
+.btn-shopping{
+    background-color: #d07e27;
+}
+.btn-video{
+    background-color: #dace39;
+}
+.btn-trip{
+    background-color: #2ad235;
+}
+.btn-tool{
+    background-color: #1cca96;
+}
