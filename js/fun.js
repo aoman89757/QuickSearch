@@ -68,9 +68,12 @@ var SiteDic =
              url = SiteDic[sitename];
         }
         //GA Event tracker
-        ga('send', 'event', 'Search', 'Click', sitename);
-        window.open(url + keyword);
-
+        ga('send', 'event', 'Search', 'Click', sitename,{
+            hitCallback: function() {
+                window.open(url + keyword);
+                console.log("发送完成");
+            }
+        });
     }
     function StartSearch(obj) {
         Search(obj.id);
