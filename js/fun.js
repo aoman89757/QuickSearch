@@ -68,15 +68,7 @@ var SiteDic =
              url = SiteDic[sitename];
         }
         //GA Event tracker
-        ga('send', {
-            hitType: 'event',
-            eventCategory: 'Search',
-            eventAction: 'Click',
-            eventLabel: sitename,
-            eventValue:1
-        });
-
-
+        ga('send', 'event', 'Search', 'Click', sitename);
         window.open(url + keyword);
 
     }
