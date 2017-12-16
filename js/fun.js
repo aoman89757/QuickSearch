@@ -64,16 +64,26 @@ var SiteDic =
         if(keyword != ""){
              url = SiteSearchDic[sitename];
              keyword = encodeURIComponent(keyword);
+            //GA Event tracker
+            ga('send', 'event', 'Search', 'Click', sitename,{
+                hitCallback: function() {
+                    Open(url + keyword);
+                }
+            });
         }else {
              url = SiteDic[sitename];
+            //GA Event tracker
+            ga('send', 'event', 'Navigate', 'Click', sitename,{
+                hitCallback: function() {
+                    Open(url);
+                }
+            });
         }
-        //GA Event tracker
-        ga('send', 'event', 'Search', 'Click', sitename,{
-            hitCallback: function() {
-                window.open(url + keyword);
-                console.log("发送完成");
-            }
-        });
+    }
+
+    function Open(site) {
+        window.open(site);
+        console.log("发送完成");
     }
     function StartSearch(obj) {
         Search(obj.id);
