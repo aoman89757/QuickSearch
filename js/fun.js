@@ -37,7 +37,7 @@ var SiteDic =
         "CSDN": "http://csdn.net",
         "菜鸟学院": "http://www.runoob.com",
         "京东": "https://jd.com/",
-        "淘宝": "https://s.taobao.com/search?q=",
+        "淘宝": "https://www.taobao.com/",
         "亚马逊":"https://www.amazon.cn",
         "当当":"http://dangdang.com",
         "知乎":"https://www.zhihu.com",
