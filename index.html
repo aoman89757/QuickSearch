@@ -28,26 +28,24 @@
 <body class="bg-image">
     <div class="jumbotron glass-theme">
         <h1>Quick Search</h1>
-        <p> 搜索快人一步！by 傲慢的上校&nbsp;&nbsp;&nbsp;&nbsp;<a class="link" href="//github.com/victaie/QuickSearch">Github账号：victaie</a></p>
+        <p class="subtitle"> &nbsp;&nbsp;搜索快人一步！by 傲慢的上校&nbsp;&nbsp;&nbsp;&nbsp;<a class="link" href="//github.com/victaie/QuickSearch">Github账号：victaie</a></p>
     </div>
     <!--<div class="container">-->
-        <div class="row">
-            <div class="col-3">
-                <div class="container ">
-                    <input id="keyword" type="text" class="form-control txtbox-size" onkeydown="defaultSearch(event)" placeholder="请输入你想搜索的内容...">
-                </div>
-                <div class="container">
-                    <p class=" footer">
-                        <span class="label">用法：</span>输入搜索关键字，选择一个网站即可在该网站进行搜索，直接按回车默认搜索百度； 不输入搜索内容单独点击一个网站则直接跳转到该网站首页<span style="color: red">（请在电脑端打开）</span>。 &nbsp &nbsp &nbsp @有什么好的建议和想法欢迎邮件至victorfeng89757@gmail.com
-                    </p>
+        <div class="row" >
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <input id="keyword" type="text" class="form-control txtbox-size" onkeydown="defaultSearch(event)" placeholder="请输入你想搜索的内容..."> 
+                    </div>
+                   
                 </div>
             </div>
-
-            <div class="col-9 ">
-                <div class="row  form-inline">
-                    <div class="col-2">
-                        <p> 搜索</p>
-                    </div>
+            <div class="col-8 " >
+                <div class="row ">
+                    <p class="group-title">搜索</p>
+                </div>
+                <div class="row items">
                     <div class="col-2 ">
                         <button id="Google" onclick="StartSearch(this)" class="btn btn-search btn-sm btn-size ">Google</button>
                     </div>
@@ -62,10 +60,10 @@
                     </div>
 
                 </div>
-                <div class="row  form-inline">
-                    <div class="col-2">
-                        <p> 社区</p>
-                    </div>
+                <div class="row">
+                    <p class="group-title"> 社区</p>
+                </div>
+                <div class="row">
                     <div class="col-2 ">
                         <button id="CSDN" onclick="StartSearch(this)"  class="btn btn-community btn-sm btn-size ">CSDN</button>
                     </div>
@@ -80,10 +78,7 @@
                     </div>
 
                 </div>
-                <div class="row  form-inline">
-                    <div class="col-2 ">
-                        <!--<button id="豆瓣" onclick="StartSearch(this)"  class="btn btn-success btn-sm btn-size ">豆瓣</button>-->
-                    </div>
+                <div class="row items">
                     <div class="col-2  ">
                         <button id="豆瓣电影" onclick="StartSearch(this)"  class="btn btn-community btn-sm btn-size ">豆瓣电影</button>
                     </div>
@@ -98,10 +93,10 @@
                     </div>
 
                 </div>
-                <div class="row  form-inline">
-                    <div class="col-2">
-                        <p> 购物</p>
-                    </div>
+                <div class="row">
+                    <p class="group-title"> 购物</p>
+                </div>
+                <div class="row items">
                     <div class="col-2 ">
                         <button id="京东" onclick="StartSearch(this)"  class="btn btn-shopping btn-sm btn-size ">京东</button>
                     </div>
@@ -115,10 +110,10 @@
                         <button id="当当" onclick="StartSearch(this)"  class="btn btn-shopping btn-sm btn-size ">当当</button>
                     </div>
                 </div>
-                <div class="row  form-inline">
-                    <div class="col-2">
-                        <p> 视频</p>
-                    </div>
+                <div class="row">
+                    <p class="group-title"> 视频</p>
+                </div>
+                <div class="row items">
                     <div class="col-2 ">
                         <button id="腾讯视频" onclick="StartSearch(this)"  class="btn btn-video btn-sm btn-size ">腾讯视频</button>
                     </div>
@@ -133,10 +128,10 @@
                     </div>
 
                 </div>
-                <div class="row  form-inline">
-                    <div class="col-2">
-                        <p> 旅行</p>
-                    </div>
+                <div class="row">
+                    <p class="group-title"> 旅行</p>
+                </div>
+                <div class="row items">
                     <div class="col-2 ">
                         <button id="高德地图" onclick="StartSearch(this)"  class="btn btn-trip btn-sm btn-size ">高德地图</button>
                     </div>
@@ -144,10 +139,10 @@
                         <button id="蚂蜂窝" onclick="StartSearch(this)"  class="btn btn-trip btn-sm btn-size ">蚂蜂窝</button>
                     </div>
                 </div>
-                <div class="row  form-inline">
-                    <div class="col-2">
-                        <p> 工具</p>
-                    </div>
+                <div class="row">
+                    <p class="group-title"> 工具</p>
+                </div>
+                <div class="row items">
                     <div class="col-2 ">
                         <button id="有道词典" onclick="StartSearch(this)"  class="btn btn-tool btn-sm btn-size ">有道词典</button>
                     </div>
@@ -156,6 +151,9 @@
                     </div>
                 </div>
             </div>
+        <div class="footer">
+            <span class="label">用法：</span>输入搜索关键字，选择一个网站即可在该网站进行搜索，直接按回车默认搜索百度； 不输入搜索内容单独点击一个网站则直接跳转到该网站首页<span style="text-decoration: underline;">（请在电脑端打开）</span>。 &nbsp &nbsp &nbsp @有什么好的建议和想法欢迎邮件至victorfeng89757@gmail.com
+        </div>
 </body>
 </html>
 
