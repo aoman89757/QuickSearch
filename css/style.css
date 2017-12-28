@@ -1,8 +1,11 @@
 .btn-size
 {
-    width: 110px;
+    max-width: 200px;
+    width: 100%;
     margin-bottom: 2px;
     margin-top: 2px;
+    overflow: hidden;
+    color: white;
 }
 .txtbox-size
 {
@@ -45,6 +48,7 @@ body
     background-color: rgba(0,0,0,0.2);
     margin: 0;
     font-size: 15px;
+    color: white;
 }
 .link{
     color:  #c74c1d;

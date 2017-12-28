@@ -59,7 +59,7 @@ var SiteDic =
     }
 
     function Search(sitename) {
-        var keyword = document.getElementById("keyword").value;
+        var keyword = $("#keyword").val();
         var url = "";
         if(keyword != ""){
              url = SiteSearchDic[sitename];
