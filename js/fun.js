@@ -65,19 +65,21 @@ var SiteDic =
              url = SiteSearchDic[sitename];
              keyword = encodeURIComponent(keyword);
             //GA Event tracker
-            ga('send', 'event', 'Search', 'Click', sitename,{
-                hitCallback: function() {
-                    Open(url + keyword);
-                }
-            });
+            // ga('send', 'event', 'Search', 'Click', sitename,{
+            //     hitCallback: function() {
+            //         Open(url + keyword);
+            //     }
+            // });
+            Open(url + keyword);
         }else {
              url = SiteDic[sitename];
             //GA Event tracker
-            ga('send', 'event', 'Navigate', 'Click', sitename,{
-                hitCallback: function() {
-                    Open(url);
-                }
-            });
+            // ga('send', 'event', 'Navigate', 'Click', sitename,{
+            //     hitCallback: function() {
+            //         Open(url);
+            //     }
+            // });
+            Open(url);
         }
     }
 
