@@ -65,19 +65,21 @@ var SiteDic =
              url = SiteSearchDic[obj.id];
              keyword = encodeURIComponent(keyword);
             //GA Event tracker
-            ga('send', 'event', 'Search', 'Click', obj.id,{
-                hitCallback: function() {
-                    Open(obj, url + keyword);
-                }
-            });
+            // ga('send', 'event', 'Search', 'Click', obj.id,{
+            //     hitCallback: function() {
+            //         Open(obj, url + keyword);
+            //     }
+            // });
+            Open(obj, url + keyword);
         }else {
              url = SiteDic[obj.id];
             //GA Event tracker
-            ga('send', 'event', 'Navigate', 'Click', obj.id,{
-                hitCallback: function() {
-                    Open(obj, url);
-                }
-            });
+            // ga('send', 'event', 'Navigate', 'Click', obj.id,{
+            //     hitCallback: function() {
+            //         Open(obj, url);
+            //     }
+            // });
+            Open(obj, url);
         }
     }
 
