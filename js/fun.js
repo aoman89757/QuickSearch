@@ -58,35 +58,36 @@ var SiteDic =
 
     }
 
-    function Search(sitename) {
+    function Search(obj) {
         var keyword = $("#keyword").val();
         var url = "";
         if(keyword != ""){
-             url = SiteSearchDic[sitename];
+             url = SiteSearchDic[obj.id];
              keyword = encodeURIComponent(keyword);
             //GA Event tracker
-            ga('send', 'event', 'Search', 'Click', sitename,{
+            ga('send', 'event', 'Search', 'Click', obj.id,{
                 hitCallback: function() {
-                    Open(url + keyword);
+                    Open(obj, url + keyword);
                 }
             });
         }else {
-             url = SiteDic[sitename];
+             url = SiteDic[obj.id];
             //GA Event tracker
-            ga('send', 'event', 'Navigate', 'Click', sitename,{
+            ga('send', 'event', 'Navigate', 'Click', obj.id,{
                 hitCallback: function() {
-                    Open(url);
+                    Open(obj, url);
                 }
             });
         }
     }
 
-    function Open(site) {
-        window.open(site);
+    function Open(obj, site) {
+        // window.open(site);
+        obj.href = sit;
         console.log("发送完成");
     }
     function StartSearch(obj) {
-        Search(obj.id);
+        Search(obj);
     }
 
     function defaultSearch(e) {
