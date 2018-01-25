@@ -29,6 +29,11 @@ body
     /* 设置背景颜色，背景图加载过程中会显示背景色 */
     background-color: #464646;  
 }
+
+a:hover{
+    opacity: 0.6;
+    background-color: blue;
+}
 .glass-theme
 {
     background-color: rgba(0,0,0,0.2);
