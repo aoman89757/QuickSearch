@@ -25,6 +25,7 @@ var SiteSearchDic =
         "有道词典":"http://dict.youdao.com/w/eng/",
         "有道词典":"http://dict.youdao.com/w/eng/",
         "Quora":"https://www.quora.com/search?q=",
+        "简书":"https://www.jianshu.com/search?q="
 
 
     }
@@ -54,6 +55,7 @@ var SiteDic =
         "多看阅读":"http://www.duokan.com",
         "有道词典":"http://dict.youdao.com",
         "Quora":"https://www.quora.com",
+        "简书":"https://www.jianshu.com"
 
 
     }
