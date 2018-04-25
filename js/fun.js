@@ -91,6 +91,28 @@ var SiteDic =
         Search(obj.id);
     }
 
+    function SearchAll(){
+        var arr = $('.btn-search');
+        arr = arr.get().reverse();
+        $.each(arr,function(index,value){
+            Search(value.id);
+        });
+    }
+    function DevelopmentAll(){
+        var arr = $('.btn-development');
+        arr = arr.get().reverse();
+        $.each(arr,function(index,value){
+            Search(value.id);
+        });
+    }
+    function ShoppingAll(){
+        var arr = $('.btn-shopping');
+        arr = arr.get().reverse();
+        $.each(arr,function(index,value){
+            Search(value.id);
+        });
+    }
+
     function defaultSearch(e) {
         var keynum = window.event ? e.keyCode : e.which;
         if(keynum == 13){

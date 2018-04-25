@@ -32,7 +32,7 @@ body
 
 a:hover{
     opacity: 0.6;
-    background-color: blue;
+    color: red;
 }
 .glass-theme
 {
@@ -108,4 +108,7 @@ h1{
 .subtitle{
     font-size: 18px;
     color: white;
+}
+p:hover{
+    color: red;
 }
