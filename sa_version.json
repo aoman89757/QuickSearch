@@ -1,0 +1,9 @@
+{
+	"code":0,
+	"message":"Success!",
+	"data":
+		{
+			"app":"sa",
+			"version":"3.5.3"
+		}
+}

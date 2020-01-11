@@ -1,14 +1,9 @@
 {
 	"code":0,
 	"message":"Success!",
-	"data":[
+	"data":
 		{
 			"app":"now",
 			"version":"3.5.3"
-		},
-		{
-			"app":"sa",
-			"version":"3.3.0"
 		}
-	]
 }
