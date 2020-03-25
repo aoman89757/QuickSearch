@@ -1,0 +1,10 @@
+{
+	"code":0,
+	"message":"success!",
+	"data":
+		{
+			"app":"nowplayer",
+			"version":"1.0",
+            "description":"新的一天，祝你开心!"
+		}
+}
