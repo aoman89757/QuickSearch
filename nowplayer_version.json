@@ -4,7 +4,7 @@
 	"data":
 		{
 			"app":"nowplayer",
-			"version":"1.0",
-            "description":"新的一天，祝你开心!"
+			"version":"1.2.0",
+            "description":"新的一天，祝你开心!\r-----------\r【新增】支持全景和180或360度VR视频\r【新增】外挂SRT字幕功能\r【优化】细节优化提升体验\r【修复】已知bug"
 		}
 }
