@@ -4,7 +4,7 @@
 	"data":
 		{
 			"app":"nowplayer",
-			"version":"1.5.3",
-            "description":"【新增】VR模式画面调整功能，可以适配各种类型的VR眼镜"
+			"version":"1.5.4",
+            "description":"【修复】VR模式全景模式白线问题\r【新增】增加文件格式标签"
 		}
 }
