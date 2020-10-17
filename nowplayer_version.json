@@ -4,7 +4,7 @@
 	"data":
 		{
 			"app":"nowplayer",
-			"version":"1.5.2",
-            "description":"【修复】VR模式画面视角过近的问题\r【优化】播放器播放体验及其他已知问题！\r"
+			"version":"1.5.4",
+            "description":"【修复】VR模式全景模式白线问题\r【新增】增加文件格式标签"
 		}
 }
