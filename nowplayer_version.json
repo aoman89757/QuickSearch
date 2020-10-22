@@ -4,7 +4,7 @@
 	"data":
 		{
 			"app":"nowplayer",
-			"version":"1.5.4",
-            "description":"【修复】VR模式全景模式白线问题\r【新增】增加文件格式标签"
+			"version":"1.5.5",
+            "description":"【新增】文件批量移动和删除功能\r【新增】wifi批量上传功能"
 		}
 }
