@@ -5,6 +5,6 @@
 		{
 			"app":"now",
 			"version":"3.8.1",
-            "description":"新的一天，祝你开心！\r-------------\r【新增】从文件导入文件时UI界面显示不全问题(English language supported)\r【优化】UI界面（Bug fixed and UI optimized）
-		}
+            "description":"新的一天，祝你开心！\r-------------\r【新增】从文件导入文件时UI界面显示不全问题(English language supported)\r【优化】UI界面（Bug fixed and UI optimize）"
+        }
 }
