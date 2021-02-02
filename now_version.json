@@ -4,8 +4,8 @@
 	"data":
 		{
 			"app":"now",
-			"version":"3.8.1",
-            "description":"新的一天，祝你开心！\r-------------\r【新增】从文件导入文件时UI界面显示不全问题\r【优化】UI界面",
+			"version":"3.8.2",
+            "description":"新的一天，祝你开心！\r-------------\r【修复】语言问题\r【优化】UI界面",
             "description_en":"1. English language supported\r2. Bug fixed and UI optimize"
         }
 }
