@@ -59,6 +59,18 @@ var SiteDic =
 
 
     }
+var AndroidMarketDic =
+    {
+        "安智": "http://dev.anzhi.com/soft_all2.php",
+        "oppo": "https://open.oppomobile.com/home/index/management",
+        "vivo": "https://dev.vivo.com.cn/appLists",
+        "360": "http://dev.360.cn/mod3/mobilenavs/index",
+        "小米": "https://dev.mi.com/distribute",
+        "百度": "http://app.baidu.com",
+        "阿里": "http://aliapp.open.uc.cn/app/mng/index",
+        "应用宝": "http://op.open.qq.com",
+        "华为": "https://developer.huawei.com/consumer/cn/service/josp/agc/index.html"
+    }
 
     function Search(sitename) {
         var keyword = $("#keyword").val();
@@ -110,6 +122,11 @@ var SiteDic =
         arr = arr.get().reverse();
         $.each(arr,function(index,value){
             Search(value.id);
+        });
+    }
+    function OpenAllAndroidMarket(){
+        $.each(AndroidMarketDic,function(index,value){
+            open(value);
         });
     }
 
