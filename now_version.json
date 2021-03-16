@@ -4,8 +4,8 @@
 	"data":
 		{
 			"app":"now",
-			"version":"3.8.5",
-            "description":"新的一天，祝你开心！\r-------------\r【新增】长按AB按钮可取消已选断点\r【修复】批量删除及移动时可能闪退的问题\r【修复】从第三方应用导入时无法显示问题\r【修复】导入时显示格式不支持问题",
+			"version":"3.8.6",
+            "description":"新的一天，祝你开心！\r-------------\r【修复】设置自动复读歌词源时闪退问题",
             "description_en":"1. English language supported\r1. Bug fixed and UI optimize"
         }
 }
