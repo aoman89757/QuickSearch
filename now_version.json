@@ -4,8 +4,8 @@
 	"data":
 		{
 			"app":"now",
-			"version":"3.8.6",
-            "description":"新的一天，祝你开心！\r-------------\r【修复】设置自动复读歌词源时闪退问题",
-            "description_en":"1. English language supported\r1. Bug fixed and UI optimize"
+			"version":"3.8.7",
+            "description":"新的一天，祝你开心！\r-------------\r【修复】加入听单时界面显示异常问题",
+            "description_en":"1. Bug fixed and UI optimize"
         }
 }
