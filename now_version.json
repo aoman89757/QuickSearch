@@ -4,8 +4,8 @@
 	"data":
 		{
 			"app":"now",
-			"version":"3.8.8",
-            "description":"新的一天，祝你开心！\r-------------\r【新增】歌词切换，点击播放器右上角按钮可以切换不同歌词",
+			"version":"3.8.9",
+            "description":"新的一天，祝你开心！\r-------------\r【优化】部分使用体验",
             "description_en":"1. English language supported\r1. Bug fixed and UI optimize"
         }
 }
