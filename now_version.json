@@ -4,8 +4,8 @@
 	"data":
 		{
 			"app":"now",
-			"version":"3.8.9",
-            "description":"新的一天，祝你开心！\r-------------\r【优化】部分使用体验",
-            "description_en":"1. English language supported\r1. Bug fixed and UI optimize"
+			"version":"3.8.10",
+            "description":"新的一天，祝你开心！\r-------------\r【新增】增加底部Mini播放器，可以随时回到主播放器页面\r【新增】跟读的录音可以保存和分享了，方便将录制的音频分享给老师点评\r【优化】调整AB断点文字排版，更方便阅读",
+            "description_en":"[New] Add Mini player at the bottom, you can go back to the main player page at any time\r[New] Recording after the reading can be saved and shared, easy to share the recorded audio with the teacher\r[Optimization] Adjust AB breakpoint text typesetting to make it easier to read"
         }
 }
