@@ -4,8 +4,8 @@
 	"data":
 		{
 			"app":"now",
-			"version":"3.8.7",
-            "description":"新的一天，祝你开心！\r-------------\r【修复】加入听单时界面显示异常问题",
-            "description_en":"1. Bug fixed and UI optimize"
+			"version":"3.8.11",
+            "description":"新的一天，祝你开心！\r-------------\r【新增】点击歌词也可以进行AB断点复读了\r【优化】增加播放器左侧边滑返回上级页面",
+            "description_en":"[New] Click on the lyrics to repeat\r[Optimization] Added the left side of the player to slide back to the superior page"
         }
 }
