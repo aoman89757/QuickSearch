@@ -4,8 +4,8 @@
 	"data":
 		{
 			"app":"now",
-			"version":"3.8.12",
-            "description":"新的一天，祝你开心！\r-------------\r【修复】部分情况下无法启动的问题\r",
+			"version":"3.8.13",
+            "description":"新的一天，祝你开心！\r-------------\r【修复】部分已知问题\r",
             "description_en":"Bug fixes"
         }
 }
